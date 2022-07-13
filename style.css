@@ -55,7 +55,7 @@ body {
     margin-top: 5%;
     background-color: aliceblue;
     padding: 30px 25px;
-    width: 60%;
+    width: 80%;
     align-content: center;
 }
 
@@ -87,7 +87,7 @@ input[type="radio"]{
 }
 
 .input-container textarea{
-    width: 300px;
-    height: 150px;
+    width: 80%;
+    height: 150px   ;
     font-size: 16px;
 }
