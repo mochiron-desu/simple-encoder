@@ -32,7 +32,7 @@
             as well use it.<br><br>
             Oh wait, hahah I just forgot to explain how to even use it hahaa, so clumsy of me...<br><br>
 
-            Just enter the text to be "Encoded" or "Decoded" and press Enter and boom its done</span>
+            Just enter the text to be "Encoded" or "Decoded" select the secret number and press Enter and boom its done</span>
     </div>
     <div class="input-container">
         <!-- <span>Select mode</span><br>
@@ -40,6 +40,12 @@
         <label for="encode">Encode</label>
         <input type="radio" id="decode" name="mode" value="Decode">
         <label for="decode">Decode</label><br><br> -->
+
+        <span>Input cipher number</span><br>
+        <input type="number" placeholder="Default 13" min="0" max="25" id="rotnum">
+        <input type="radio" id="encode" value="encode" name="mode" checked="checked"><label for="encode">Encode</label>
+        <input type="radio" id="decode" value="decode" name="mode"><label for="encode">Decode</label>
+        <br><br>
 
         <span>Input text to Encode/Decode</span><br>
         <textarea id="userInput"></textarea>
