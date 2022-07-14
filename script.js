@@ -45,8 +45,11 @@ var rotnum = document.querySelector("#rotnum");
 
 //text processing function
 function textProcessing() {
-    if (inputText.value.length == 0) {
+    if (inputText.value.length == 0 ){
         alert("Oi enter something you fool")
+    }
+    else if(rotnum.value.length == 0){
+        alert("Oi enter the cipher number/secret number")
     }
     else if (rotnum.value < 0 || rotnum.value > 26) {
         alert("The range for value should be from 0-25")
