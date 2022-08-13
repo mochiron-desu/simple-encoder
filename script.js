@@ -75,7 +75,6 @@ function textProcessing() {
                 var newtext = inputText.value;
                 for (var i = 0; i < 12; i++) {
                     newtext = (cipherEncode(newtext, rotnum.value));
-                    console.log(newtext)
                 }
                 output.value = newtext;
             }
@@ -85,7 +84,6 @@ function textProcessing() {
                 var newtext = inputText.value;
                 for (var i = 0; i < 25; i++) {
                     newtext = (cipherEncode(newtext, rotnum.value));
-                    console.log(newtext)
                 }
                 output.value = newtext;
             }
